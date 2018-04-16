@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hongyu Zhai's Homework 2</title>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Which state has the largest population?</h2>
+            <h2>Hongyu Zhai&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;01/20/2018</h3>
+        </header>
+        
+        <img src="./cover.png" class="img-responsive" alt="Visualization using Tableau">
+    
+        <p> 
+            <h3>Reference</h3>
+            I found this dataset on Kaggle.com. This dataset is contributed by users of Kaggle and it is originally from the US Census Bureau. <em>Link to dataset</em> : <a href="https://www.kaggle.com/muonneutrino/us-census-demographic-data">https://www.kaggle.com/muonneutrino/us-census-demographic-data</a>
+        </p>
+
+        <h3>Description</h3>
+        
+        <p> 
+            I made a map to show the geographic shape of each state and fill in different color based on the population of that state. In this case, the mark is the shape of a state, and the channel is the color filled in each shape. The color indicates the size of population: deeper color means larger population.
+        </p>
+
+        <p> 
+            The dataset I am using contain detailed demographic data, so I think a map will be the best way to visualize the data. When visualizing wildfire records or other things that are related to trouble(polution, natural disaster, etc), we tend to use the red color, but it is obviously not appropriate here. In this case, I choose the blue color because it is more netural.
+        </p>
+
+        <p>
+            I think my visualization met the requirement, and it is successful in delivering the information to the viewer.
+        </p>
+
+        <h3>Re-create it using D3.js</h3>
+
+
+
+
+
+    </div>
+
+</body>
+
+<script src="./scripts/topojson.v2.min.js"></script>
+<script src="./scripts/d3.v4.min.js"></script>
+<script src="./scripts/app.js"></script>
+
+</html>
